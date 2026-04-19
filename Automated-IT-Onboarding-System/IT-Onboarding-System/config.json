@@ -1,0 +1,38 @@
+{
+  "_comment": "IT Onboarding System — Configuration. Replace all YOUR_* placeholders before running.",
+
+  "TenantId"                 : "YOUR_TENANT_ID",
+  "ClientId"                 : "YOUR_APP_CLIENT_ID",
+  "ClientSecret"             : "YOUR_APP_CLIENT_SECRET",
+
+  "Domain"                   : "yourorg.onmicrosoft.com",
+  "OrgName"                  : "Your Organization",
+  "UsageLocation"            : "IN",
+
+  "DefaultPassword"          : "Welcome@2025!",
+  "DefaultLicenseSKU"        : "ENTERPRISEPACK",
+
+  "DefaultTeamsTeamId"       : "YOUR_DEFAULT_TEAMS_TEAM_ID",
+  "SharePointSiteId"         : "YOUR_SHAREPOINT_SITE_ID",
+  "SharePointSiteUrl"        : "https://yourorg.sharepoint.com/sites/Intranet",
+
+  "CompliancePolicyGroupId"  : "YOUR_INTUNE_COMPLIANCE_GROUP_ID",
+  "IntuneEnrollmentProfileId": "YOUR_INTUNE_ENROLLMENT_PROFILE_ID",
+
+  "LogPath"                  : "C:\\Logs\\ITOnboarding",
+  "AdminEmail"               : "it-admin@yourorg.com",
+
+  "DepartmentTeams": {
+    "Engineering" : "ENGINEERING_TEAM_ID",
+    "Marketing"   : "MARKETING_TEAM_ID",
+    "HR"          : "HR_TEAM_ID",
+    "Finance"     : "FINANCE_TEAM_ID",
+    "Operations"  : "OPS_TEAM_ID"
+  },
+
+  "DepartmentLicenses": {
+    "_comment": "Map departments to additional SKU part numbers if needed",
+    "Engineering" : "",
+    "Finance"     : ""
+  }
+}
