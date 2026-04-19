@@ -1,4 +1,4 @@
-HOW TO RUN:
+##HOW TO RUN:
 The project has a clean folder structure — Start-ITOnboarding.ps1 is the single entry point that orchestrates everything. The Modules/ folder contains one self-contained function per step. Every module logs its own success/failure to a timestamped CSV audit trail automatically.
 To get this running in your lab/environment:
 
